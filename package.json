@@ -1,0 +1,29 @@
+{
+  "name": "test-changelog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaosaisai/test-changelog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaosaisai/test-changelog/issues"
+  },
+  "homepage": "https://github.com/zhaosaisai/test-changelog#readme",
+  "devDependencies": {
+    "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "commit-msg": "node scripts/verify-commit-msg.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
