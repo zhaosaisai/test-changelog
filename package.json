@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/zhaosaisai/test-changelog#readme",
   "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-customizable": "^6.2.0",
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
@@ -25,5 +28,10 @@
   },
   "dependencies": {
     "chalk": "^2.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
   }
 }
